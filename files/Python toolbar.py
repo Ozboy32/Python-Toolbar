@@ -19,7 +19,7 @@ win.overrideredirect(True)  # Make the window borderless
 win.attributes('-alpha', 0.8)  # Make the window transparent
 win.attributes('-topmost', True)  # Always on top
 win.configure(bg="#000000")  # bg colour
-# win.geometry("50x1080+1230+0")  #right side
+# win.geometry("50x1080+1230+0")  # right side, make sure you also change the inBox() and outBox() functions to match
 win.geometry("1920x50+0+-48")  # top
 
 # background image
