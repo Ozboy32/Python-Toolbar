@@ -76,5 +76,3 @@ app.close()
 pic.close()
 
 win.mainloop()
-
-run()
