@@ -14,6 +14,10 @@ pic = open("image.txt", "r")
 programs = {}
 images = {}
 
+#canvas
+cv = Canvas(width=1920, height=50, highlightthickness=0)
+cv.pack(side='top', fill='both', expand='yes')
+
 # Attributes
 win.overrideredirect(True)  # Make the window borderless
 win.attributes('-alpha', 0.8)  # Make the window transparent
