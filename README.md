@@ -1,5 +1,5 @@
 # Python-Toolbar
-A toolbar for windows (not tested on linux yet but it might work) with the ability to add buttons to applications and (again, still not tested) other files.
+A toolbar for windows (tested on Linux, modified version will be added) with the ability to add buttons to applications and (not tested) other files.
 
 ## Instructions:
 For the program to work please make sure that you add your file paths to program.txt and the path to the icon you want for that file in image.txt, once you have done that add increasing numbers to widget_num.txt in accordance to how many files and images you have added to the other files.  If you don't do the last one the buttons will not be added.
